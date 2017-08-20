@@ -1,0 +1,101 @@
+
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.color {
+  top:0;
+  left:0;
+  background-color:#06365f;
+  border-color: #06365f;
+  height: 300px;
+  z-index: 10;
+}
+
+.brand-picture {
+  margin-top: 100px;
+  margin-left:40%;
+  padding: 0;
+  }
+
+button {
+  position: absolute;
+  background-color: #1c5380;
+  color: white;
+  border-style:hidden;
+  height: 40px;
+  width: 90px;
+  margin-left: 100px;
+  margin-right: -2000px;
+  margin-top: 120px;
+  overflow: hidden;
+}
+
+.phones-photo {
+  position: absolute;
+  margin-top: 200px;
+  margin-right: -15px;
+  margin-left: -35px;
+  z-index: 100;
+}
+
+div {
+  position: relative;
+  margin-right: 0;
+  margin-left: 400px;
+  margin-bottom: 200px;
+  margin-top: -700px;
+}
+
+.capture{
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 80px;
+  color:#06365f;
+  width: 250px;
+}
+
+.world {
+  position: absolute;
+  margin-top: -260px;
+  margin-left: 80px;
+  padding-bottom: 20px;
+  color:#06365f;
+  width: 200px;
+}
+article {
+  position: absolute;
+  width:400px;
+  margin-left: 50px;
+  margin-top: -200px;
+}
+
+.frame {
+  margin-left: -30px;
+  margin-right: 50px;
+  padding: 50px;
+}
+
+
+li {
+  display: inline;
+  color:#06365f;
+  padding: 20px;
+}
+
+footer {
+  position: absolute;
+  margin-bottom: 30px;
+  width: 1500px;
+  font-weight: bold;
+}
+footer:hover {
+  text-decoration: underline;
+}
